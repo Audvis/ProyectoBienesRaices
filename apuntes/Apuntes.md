@@ -34,3 +34,11 @@ para escribir signo copyright
 ----
 
 ***control+d*** para seleccionar elementos iguales en visual studio code
+
+***section***
+Contenedor al cambiar de contenido, el primer hijo tiene que ser un titulo.
+
+***article***
+Para agrupar entrada de blog
+
+
