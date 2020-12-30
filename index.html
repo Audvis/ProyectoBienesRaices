@@ -4,57 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices</title>
+    <title>Bienes Raíces</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="site-header inicio" >
 
-        <a href="index.html">
-            <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
-        </a>
+        <div class="contenedor contenido-header">
 
-        <nav>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto">Contacto</a>
-        </nav>
+            <div class="barra">
 
-        <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                </a>
+        
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto">Contacto</a>
+                </nav>
+        
+            </div> <!--barra-->
+    
+            <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+
+
+        </div> <!--Contenedor-->
+
 
     </header>
 
-    <section>
+    <section class="contenedor seccion">
 
-        <h2>Más Sobre Nosotros</h2>
+        <h2 class="fw-300 cent-text">Más Sobre Nosotros</h2>
 
-        <div>
-            <img src="img/icono1.svg" alt="icono seguridad">
-            <h3>Seguridad</h3>
-            <p>amet consectetur adipisicing elit. Unde, facere pariatur? Perspiciatis quam explicabo architecto quaerat
-                accusamus nulla labore quod perferendis aut corrupti a ipsam voluptatum saepe, iusto eius. Quisquam.</p>
+        <div class="iconos-nosotros">
+
+            <div class="icono">
+                <img src="img/icono1.svg" alt="icono seguridad">
+                <h3>Seguridad</h3>
+                <p>amet consectetur adipisicing elit. Unde, facere pariatur? Perspiciatis quam explicabo architecto quaerat
+                    accusamus nulla labore quod perferendis aut corrupti a ipsam voluptatum saepe, iusto eius. Quisquam.</p>
+            </div>
+    
+            <div class="icono">
+                <img src="img/icono2.svg" alt="icono mejor precio">
+                <h3>El Mejor Precio</h3>
+                <p>sit amet consectetur adipisicing elit. Rem omnis fugit cupiditate, tenetur iure incidunt harum vero
+                doloribus, delectus accusantium, inventore ipsam ullam id veniam necessitatibus unde dolore maiores
+                voluptas!</p>
+            </div>
+    
+            <div class="icono">
+                <img src="img/icono3.svg" alt="icono a tiempo">
+                <h3>A Tiempo</h3>
+                <p>sit amet consectetur, adipisicing elit. Quos error magnam cupiditate quae eum iusto saepe aperiam
+                    molestiae sunt explicabo? Quibusdam obcaecati harum consectetur dolor cupiditate nihil iste, doloribus
+                    assumenda.</p>
+            </div>
+            
         </div>
 
-        <div></div>
-        <img src="img/icono2.svg" alt="icono mejor precio">
-        <h3>El Mejor Precio</h3>
-        <p>sit amet consectetur adipisicing elit. Rem omnis fugit cupiditate, tenetur iure incidunt harum vero
-            doloribus, delectus accusantium, inventore ipsam ullam id veniam necessitatibus unde dolore maiores
-            voluptas!</p>
-        </div>
-
-        <div>
-            <img src="img/icono3.svg" alt="icono a tiempo">
-            <h3>A Tiempo</h3>
-            <p>sit amet consectetur, adipisicing elit. Quos error magnam cupiditate quae eum iusto saepe aperiam
-                molestiae sunt explicabo? Quibusdam obcaecati harum consectetur dolor cupiditate nihil iste, doloribus
-                assumenda.</p>
-        </div>
+      
 
     </section>
+
+
 
     <main>
 
@@ -118,7 +138,7 @@
 
     <footer>
 
-        <nav>
+        <nav class="navegacion">
             <a href="nosotros.html">Nosotros</a>
             <a href="anuncios.html">Anuncios</a>
             <a href="blog.html">Blog</a>
